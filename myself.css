@@ -1,0 +1,21 @@
+p{
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+body{
+    background-image:url("/asset/tomoko-uji-eriuKJwcdjI-unsplash.jpg");
+}
+section{
+    display: flex;
+}
+.we{
+    background-color: transparent;
+}
+.me{
+    background-color: transparent;
+}
+h3{
+    color: crimson;
+    width:150;
+}
