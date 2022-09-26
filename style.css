@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 p{
     font-size:18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,16 +14,28 @@ p{
 body{
     background-image:url("/asset/tomoko-uji-eriuKJwcdjI-unsplash.jpg");
 }
-section{
-    display: flex;
-}
 .we{
     background-color: transparent;
+    width:90%;
 }
 .me{
     background-color: transparent;
 }
 h3{
     color: crimson;
-    width:150;
+    /* width:150; */
+}
+.they{
+    margin-top:70px;
+    display: flex;
+    background-color:transparent;
+    height:70vh;
+}
+.ke{
+    width:70%;
+    margin-left:800px;
+}
+.be{
+    width:70%;
+    /* line-height:px; */
 }
