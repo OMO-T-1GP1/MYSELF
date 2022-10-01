@@ -2,19 +2,64 @@
     margin: 0;
     padding: 0;
 }
-h1{
+img {
+    height: 100%;
+
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #BBD1EA;
+    color: #04080F;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: #507DBC;
+    height:80px;
+
+}
+.nav-links{
+    height: 100%;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+li{
     font-size:30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-section {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.hero-img {
+   height: 100%;
+   /*width: 50%;*/
+   justify-self: flex-end;
+   
+   
+}
+.hero-text h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.hero-text p {
+    font-family: ;
+    font-size: 16px;
+    font-weight: 400;
 }
 p{
     font-size:18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    font-style: ;
 }
-body{
-    background-image:url("/asset/tomoko-uji-eriuKJwcdjI-unsplash.jpg");
-}
-.we{
+.img{
     background-color: transparent;
     width:90%;
 }
@@ -25,25 +70,16 @@ h3{
     color: crimson;
     /* width:150; */
 }
-.they{
-    margin-top:70px;
-    display: flex;
-    background-color:transparent;
-    height:70vh;
+li{
+ list-style-type: none;
 }
 .ke{
     width:70%;
     margin-left:800px;
 }
-.be{
-    width:70%;
-    /* line-height:px; */
-}
-li{
-    font-size:30px;
-}
+
 #th{
-   font-size:35px;
+   font-size:30px;
   color: orangered;
 }
 .my{
